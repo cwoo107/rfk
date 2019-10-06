@@ -13,3 +13,44 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #31203e;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+}
+b{
+    font-weight: 600;
+    font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+}
+h1{
+    font-size: 72px;
+}
+h2 {
+    font-weight: 400;
+    font-size: 42px;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+}
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+light {
+    font-weight: 200;
+}
+.parallax {
+    /* The image used */
+    background-image: url("/assets/rfk-background.jpg");
+    color: white;
+    /* Set a specific height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#white {
+    background-color: white;
+}
